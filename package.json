@@ -1,7 +1,7 @@
 {
   "name": "sprint_6",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/server.ts",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --rs --cls --ignore-watch node_modules src/server.ts",
