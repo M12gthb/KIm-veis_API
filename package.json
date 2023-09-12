@@ -1,14 +1,14 @@
 {
   "name": "sprint_6",
   "version": "1.0.0",
-  "main": "src/server.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --rs --cls --ignore-watch node_modules src/server.ts",
+    "dev": "ts-node-dev --rs --cls --ignore-watch node_modules src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs",
     "test": "cross-env NODE_ENV=test SECRET_KEY=secret_key jest --verbose --runInBand",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
